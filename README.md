@@ -23,7 +23,10 @@
 
 
 
-https://github.com/PJH930/img_Detection/assets/117810524/cf28a978-1662-4f1c-824f-b3546eb3a958
+
+
+https://github.com/PJH930/img_Detection/assets/117810524/8b6998f1-12bc-4869-9cd7-b6acac4ae9ec
+
 
 
 
