@@ -23,8 +23,6 @@ class WindowClass(QMainWindow, form_class):
         self.g_model = None
         # 데이터셋 파일 저장 리스트
         self.dataset_list_dir = ""
-        # 데이터셋 적용폴더 저장 리스트
-        self.dataset_dir = ""
         # 그림 데이터 모든파일의 절대경로
         self.img_all_list = []
         # 화면에 표시된 데이터셋 파일과 결과파일의 절대값 주소
@@ -32,13 +30,6 @@ class WindowClass(QMainWindow, form_class):
         self.original_img_name = ""
         # treeView 목록 파일을 클릭하면 그 파일의 절대값을 저장
         self.tree_View_file_click = ""
-        # 결과이미지 경로
-        self.result_img_path = ""
-
-        # 데이터셋 파일
-        self.img_folder = []
-        self.img_folder2 = []
-
 
         self.pushButton_model.clicked.connect(self.modelSelect)
         self.pushButton_dataset.clicked.connect(self.datasetDirSelect)
